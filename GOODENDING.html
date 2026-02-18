@@ -1,25 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Nights at Erick's</title>
+    <title>Five Nights at Erick's - ¡Sobreviviste!</title>
 </head>
 <body>
 
-    <video width="1000" autoplay controlsList="nodownload nofullscreen noremoteplayback">
-        <source src="./GOODENDINGG.mp4" type="video/mp4">
-        Tu navegador no soporta video.
-    </video>
+<header>
+    <h1>Five Nights at Erick's</h1>
+    <nav aria-label="breadcrumb">
+        <ol>
+            <li><a href="./index.html">Inicio</a></li>
+            <li>Final - Good Ending</li>
+        </ol>
+    </nav>
+    <p>Hora actual: <time datetime="06:00">6:00 AM</time></p>
+    <progress value="100" max="100">100%</progress>
+</header>
 
-    <main>
-      <article>
+<main>
+    <article>
+        <section>
+            <figure>
+                <video width="1000" controls autoplay>
+                    <source src="./GOODENDINGG.mp4" type="video/mp4">
+                    Tu navegador no soporta video.
+                </video>
+                <figcaption>¡Lo lograste! Sobreviviste la noche.</figcaption>
+            </figure>
+
+            <p>Has sobrevivido a la noche. Felicitaciones...</p>
+        </section>
+
         <nav>
-          <ul>
-            <li><a href="./GE2.html">Lo logré...</a></li>
-          </ul>
+            <ul>
+                <li><a href="./GE2.html">Lo logré...</a></li>
+            </ul>
         </nav>
-      </article>
-    </main>
+    </article>
+</main>
+
+<footer>
+    <p>Universidad del Valle de Guatemala</p>
+</footer>
+
 </body>
 </html>

@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Nights at Erick's</title>
+    <title>Game Over</title>
 </head>
 <body>
 
-    <video width="1000" autoplay controlsList="nodownload nofullscreen noremoteplayback">
-        <source src="./SCREAMERTRUE.mp4" type="video/mp4">
-        Tu navegador no soporta video.
-    </video>
+<header>
+    <h1>Five Nights at Erick's</h1>
+    <nav>
+        <ol>
+            <li><a href="./index.html">Inicio</a></li>
+            <li>Game Over</li>
+        </ol>
+    </nav>
+</header>
 
-    <main>
-      <article>
+<main>
+    <article>
+
+        <section>
+            <figure>
+                <video width="1000" autoplay>
+                    <source src="./SCREAMERTRUE.mp4" type="video/mp4">
+                </video>
+                <figcaption>Erick te ha encontrado.</figcaption>
+            </figure>
+        </section>
+
+        <dialog open>
+            <form method="dialog">
+                <p>ERICK TE HA ENCONTRADO.</p>
+                <button>Cerrar</button>
+            </form>
+        </dialog>
+
         <nav>
-          <ul>
-            <li><a href="./index.html">Game over...</a></li>
-          </ul>
+            <ul>
+                <li><a href="./index.html">Reintentar</a></li>
+            </ul>
         </nav>
-      </article>
-    </main>
+
+    </article>
+</main>
+
+<footer>
+    <p>Fin del turno nocturno.</p>
+</footer>
+
 </body>
 </html>
